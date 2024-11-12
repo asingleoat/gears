@@ -22,8 +22,11 @@ pa = 20;
 
 rb = rp*cos(pa);
 
+// not all values are valid, will instructively error
+// TODO make robust
 addendum = 0.2;
 
+// tooth count later
 k = 13;
 
 st = $t * 360 / k; // one tooth worth of rotation
